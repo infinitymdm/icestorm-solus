@@ -22,38 +22,26 @@ See http://bygone.clairexen.net/icestorm/ for more information.
         <PartOf>office.scientific</PartOf>
         <Files>
             <Path fileType="config">/etc/udev/rules.d/53-lattice-ftdi.rules</Path>
-            <Path fileType="data">/usr/local/bin/icebox.py</Path>
-            <Path fileType="data">/usr/local/bin/icebox_asc2hlc</Path>
-            <Path fileType="data">/usr/local/bin/icebox_chipdb</Path>
-            <Path fileType="data">/usr/local/bin/icebox_colbuf</Path>
-            <Path fileType="data">/usr/local/bin/icebox_diff</Path>
-            <Path fileType="data">/usr/local/bin/icebox_explain</Path>
-            <Path fileType="data">/usr/local/bin/icebox_hlc2asc</Path>
-            <Path fileType="data">/usr/local/bin/icebox_html</Path>
-            <Path fileType="data">/usr/local/bin/icebox_maps</Path>
-            <Path fileType="data">/usr/local/bin/icebox_stat</Path>
-            <Path fileType="data">/usr/local/bin/icebox_vlog</Path>
-            <Path fileType="data">/usr/local/bin/iceboxdb.py</Path>
-            <Path fileType="data">/usr/local/bin/icebram</Path>
-            <Path fileType="data">/usr/local/bin/icemulti</Path>
-            <Path fileType="data">/usr/local/bin/icepack</Path>
-            <Path fileType="data">/usr/local/bin/icepll</Path>
-            <Path fileType="data">/usr/local/bin/iceprog</Path>
-            <Path fileType="data">/usr/local/bin/icetime</Path>
-            <Path fileType="data">/usr/local/bin/iceunpack</Path>
-            <Path fileType="data">/usr/local/share/icebox/chipdb-1k.txt</Path>
-            <Path fileType="data">/usr/local/share/icebox/chipdb-384.txt</Path>
-            <Path fileType="data">/usr/local/share/icebox/chipdb-5k.txt</Path>
-            <Path fileType="data">/usr/local/share/icebox/chipdb-8k.txt</Path>
-            <Path fileType="data">/usr/local/share/icebox/chipdb-lm4k.txt</Path>
-            <Path fileType="data">/usr/local/share/icebox/chipdb-u4k.txt</Path>
-            <Path fileType="data">/usr/local/share/icebox/timings_hx1k.txt</Path>
-            <Path fileType="data">/usr/local/share/icebox/timings_hx8k.txt</Path>
-            <Path fileType="data">/usr/local/share/icebox/timings_lp1k.txt</Path>
-            <Path fileType="data">/usr/local/share/icebox/timings_lp384.txt</Path>
-            <Path fileType="data">/usr/local/share/icebox/timings_lp8k.txt</Path>
-            <Path fileType="data">/usr/local/share/icebox/timings_u4k.txt</Path>
-            <Path fileType="data">/usr/local/share/icebox/timings_up5k.txt</Path>
+            <Path fileType="executable">/usr/bin/icebox</Path>
+            <Path fileType="executable">/usr/bin/icebox.py</Path>
+            <Path fileType="executable">/usr/bin/icebox_asc2hlc</Path>
+            <Path fileType="executable">/usr/bin/icebox_chipdb</Path>
+            <Path fileType="executable">/usr/bin/icebox_colbuf</Path>
+            <Path fileType="executable">/usr/bin/icebox_diff</Path>
+            <Path fileType="executable">/usr/bin/icebox_explain</Path>
+            <Path fileType="executable">/usr/bin/icebox_hlc2asc</Path>
+            <Path fileType="executable">/usr/bin/icebox_html</Path>
+            <Path fileType="executable">/usr/bin/icebox_maps</Path>
+            <Path fileType="executable">/usr/bin/icebox_stat</Path>
+            <Path fileType="executable">/usr/bin/icebox_vlog</Path>
+            <Path fileType="executable">/usr/bin/iceboxdb.py</Path>
+            <Path fileType="executable">/usr/bin/icebram</Path>
+            <Path fileType="executable">/usr/bin/icemulti</Path>
+            <Path fileType="executable">/usr/bin/icepack</Path>
+            <Path fileType="executable">/usr/bin/icepll</Path>
+            <Path fileType="executable">/usr/bin/iceprog</Path>
+            <Path fileType="executable">/usr/bin/icetime</Path>
+            <Path fileType="executable">/usr/bin/iceunpack</Path>
             <Path fileType="data">/usr/share/icebox/chipdb-1k.txt</Path>
             <Path fileType="data">/usr/share/icebox/chipdb-384.txt</Path>
             <Path fileType="data">/usr/share/icebox/chipdb-5k.txt</Path>
@@ -71,7 +59,7 @@ See http://bygone.clairexen.net/icestorm/ for more information.
     </Package>
     <History>
         <Update release="2">
-            <Date>2022-09-30</Date>
+            <Date>2022-11-01</Date>
             <Version>0.1.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Marcus Mellor</Name>
